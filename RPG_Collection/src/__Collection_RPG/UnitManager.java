@@ -13,8 +13,8 @@ public class UnitManager {
 
 	void setPlayer() {
 		playerList.clear();
-		playerList.add(new UnitPlayer)("전사",100,30);
-		
+		playerList.add(new UnitPlayer("전사", 100, 30, new Skill_PowerAttack()));
+
 	}
 
 }
