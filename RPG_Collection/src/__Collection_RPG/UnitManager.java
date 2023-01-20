@@ -14,7 +14,13 @@ public class UnitManager {
 	void setPlayer() {
 		playerList.clear();
 		playerList.add(new UnitPlayer("전사", 100, 30, new Skill_PowerAttack()));
+		playerList.add(new UnitPlayer("마법사", 80, 20, new Skill_PowerAttack()));
+		playerList.add(new UnitPlayer("힐러", 60, 10, new Skill_PowerAttack()));
+	}
 
+	void setMonster() {
+		monsterList.clear();
+		monsterList.add(new Monster("늑대", 200, 5));
 	}
 
 }
